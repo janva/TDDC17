@@ -1,0 +1,38 @@
+
+    a) What is the risk of melt-down in the power plant during a day if no observations have been made? What if there is icy weather?
+ 
+		The risk melt-down if no prior observation have been made is.
+		0,02578
+		
+		The risk melt-down if icy weather has been observed 
+		0,03472
+
+    b) Suppose that both warning sensors indicate failure. What is the risk of a meltdown in that case?
+	     P(Meltdown|pumpFailureWarning ^ waterLeakWarning)	=   0,14535
+	 Compare this result with the risk of a melt-down when there is an actual pump failure and water leak.
+	 
+	 P(Meltdown |pumpfailure ^ waterLeak )=  0.20000
+	  What is the difference? The answers must be expressed as conditional probabilities of the observed variables, P(Meltdown|...).
+	  
+	  The differnence in probability is because actuall pumpFailure and Waterleak have been observed. The direclty effekt 
+	  The meltdown node as oppose to PumpFailureWarning and WaterLeakWarning. PumpFailure and waterLeak conditionaly indepent on
+	  Pumpfailure warning.
+	  	
+
+    c) The conditional probabilities for the stochastic variables are often estimated by repeated experiments or observations.
+        Why is it sometimes very difficult to get accurate numbers for these?  
+	What conditional probabilites in the model of the plant do you think are difficult or impossible to estimate?
+    
+	Icy weather is hard to predict  because weather in general is dependent on a lot of parametser which makes the scale
+	of predicting weather very large.  All the parameter cant fit in the model which is a simplifictation of the real world.
+    
+
+    d) Assume that the "IcyWeather" variable is changed to a more accurate "Temperature" variable instead (don't change your model). 
+    What are the different alternatives for the domain of this variable? What will happen with the probability distribution 
+    of P(WaterLeak | Temperature) in each alternative?
+    
+    check continius domains? discrete? ..... 
+     
+     
+     
+     
